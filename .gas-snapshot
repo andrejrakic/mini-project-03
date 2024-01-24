@@ -1,2 +1,5 @@
-CounterTest:testFuzz_SetNumber(uint256) (runs: 256, μ: 27320, ~: 28409)
-CounterTest:test_Increment() (gas: 28379)
+NftP2PDexForTrueDegensTest:test_AcceptSwap() (gas: 112236)
+NftP2PDexForTrueDegensTest:test_AcceptSwap_RevertIfInvalidSwapDetailsAreProvided() (gas: 121780)
+NftP2PDexForTrueDegensTest:test_CancelSwap() (gas: 86080)
+NftP2PDexForTrueDegensTest:test_CancelSwap_RevertIfCallerIsNotInitiator() (gas: 101439)
+NftP2PDexForTrueDegensTest:test_InitiateSwap() (gas: 91152)
